@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body{
+  background: black;
+} */
+
+.main{
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  z-index: 10;
+}
+
+.cont-charts .container:nth-child(2){
+  margin: 0 60px;
+}
+
+.cont-charts{
+  display: flex;
+  width: max-content;
+  justify-content: center;
+}
+
+h1{
+  font-size: 30px;
+  color: white;
+  margin-bottom: 100px;
+  margin-left: 20px;
+  font-family: arial;
+
+}
+
+.strato{
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box{
+  flex-basis: calc(100% / 20);
+  border: #ffffff1f solid 1px;
+}
